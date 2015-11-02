@@ -9,12 +9,10 @@ import javax.servlet.FilterConfig;
 import javax.servlet.ServletException;
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
-import javax.servlet.annotation.WebFilter;
 
 /**
  * Servlet Filter implementation class MyLastFilter
  */
-//@WebFilter("/*")
 public class AAMyLastFilter implements Filter {
 	
 	private static final Logger LOG = Logger.getLogger(AAMyLastFilter.class.getName());
